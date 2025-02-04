@@ -1,0 +1,36 @@
+# Binaries
+/target/
+
+# Dependency directory (managed by Cargo)
+/Cargo.lock
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Neovim temporary and swap files
+*.swp
+*.swo
+*.swap
+.nvim/
+.session.vim
+
+# Rust Analyzer specific files
+.rls/
+.out/
+.debug/
+
+# IntelliJ Rust plugin files (if not using IntelliJ, these can be removed)
+.idea/
+.rustfmt.toml
+
+# Other temporary files
+*~
+*.tmp
+*.log
+*.class
+*.pyc
+
+# Neovim-specific directories and files
+/nvim/
+/session.sh
