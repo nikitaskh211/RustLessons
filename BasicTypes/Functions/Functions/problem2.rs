@@ -1,0 +1,21 @@
+/* -- original = unchanged
+fn main() {
+   print();
+}
+
+// Replace i32 with another type
+fn print() -> i32 {
+   println!("Success!");
+}
+*/
+
+fn main() {
+   print();
+}
+
+// Replace i32 with another type
+fn print() -> () {
+   println!("Success!");
+}
+
+// conclusion 43 = rust is strict with return types, need to respect that
